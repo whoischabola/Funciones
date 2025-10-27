@@ -5,7 +5,7 @@ public class Main {
         System.out.println(duracionMediaCanciones(30, 60, 90));
         System.out.println(tiempoRestanteAlquiler(6, 17));
         calcularImpuestoYDescuento(25, 15, 10);
-        calcularVideojuegos(60, 42);
+        System.out.println(calcularVideojuegos(35, 12));
         }
         // Ejercicio 1: Se muestran los datos de un libro: título, autor y número de páginas para
         // mostrarlo posteriormente en la consola.
@@ -42,7 +42,10 @@ static int tiempoRestanteAlquiler(int semanasTotales, int diasTranscurridos) {
     }
     // Ejercicio 5:
     // Calcular el porcentaje que representan los videojuegos sobre el total de artículos propuestos.
-    static double calcularVideojuegos(int juegos, int totalArtículos) {
-        return (double) juegos / totalArtículos * 100;
+    static double calcularVideojuegos(int juegos, int totalArtículos1) {
+        return (double) juegos / totalArtículos1 * 100;
     }
+
+
+
 }
